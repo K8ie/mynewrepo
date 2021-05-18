@@ -17,8 +17,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "index": "index.html",
+            "main": "main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
@@ -119,6 +119,10 @@
               "devServerTarget": "advisonaut-routed:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
