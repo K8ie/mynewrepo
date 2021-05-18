@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Bootstrap core CSS 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
+
+    <link href="dashboard.css" rel="stylesheet">
+
+   
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+<body>
+
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3">Advisonaut Arbeitsbereich</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="#">Abmelden</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container-fluid" style="float: right;">
+
+        <div class="row">
+
+            <nav id="sidebarMenu" style="z-index: unset;"
+                class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page">
+                                <span data-feather="home"></span>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="file"></span>
+                                Anfragen
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="shopping-cart"></span>
+                                Produkte
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="users"></span>
+                                Meine Kunden
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="bar-chart-2"></span>
+                                Dokumente
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="layers"></span>
+                                Favoriten
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h6
+                        class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Gespeicherte Berichte</span>
+                        <a class="link-secondary" aria-label="Add a new report">
+                            <span data-feather="plus-circle"></span>
+                        </a>
+                    </h6>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="file-text"></span>
+                                Letzte Bewegungen
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <span data-feather="file-text"></span>
+                                Letztes Semester
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main style="margin-left: 10%!important" class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div style="z-index: unset; margin-left: 10%!important;"
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Dashboard</h1>
+
+
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                            <span data-feather="calendar"></span>
+                            This week
+                        </button>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="container g-3 overflow-hidden" style="margin-left: 9%;">
+                    <div class="row">
+                        <div class="col-sm">
+
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">Tasks und Pendenzen</h5>
+
+                                    <table class="table table-hover" style="width: 100%; margin-top: 5px;">
+                                        <tbody>
+                                            <tr>
+                                                <td>21</td>
+                                                <td>A</td>
+                                                <td>new</td>
+                                                <td>Basisvertrag ausstehend</td>
+                                                <td>Hans</td>
+                                            </tr>
+                                            <tr>
+                                                <td>22</td>
+                                                <td>P</td>
+                                                <td>new</td>
+                                                <td>Bezugsgespräch</td>
+                                                <td>Peter</td>
+                                            </tr>
+                                            <tr>
+                                                <td>23</td>
+                                                <td>T</td>
+                                                <td>old</td>
+                                                <td>neune Kontakt anfrage</td>
+                                                <td>Maria</td>
+                                            </tr>
+                                            <tr>
+                                                <td>24</td>
+                                                <td>A</td>
+                                                <td>old</td>
+                                                <td>Zusatzvertrag fertig</td>
+                                                <td>Robert</td>
+                                            </tr>
+                                            <tr>
+                                                <td>25</td>
+                                                <td>P</td>
+                                                <td>old</td>
+                                                <td>neune Kontakt anfrage</td>
+                                                <td>Max</td>
+                                            </tr>
+                                            <tr>
+                                                <td>26</td>
+                                                <td>T</td>
+                                                <td>old</td>
+                                                <td>Mandanten Gespreaech</td>
+                                                <td>Miriam</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm">
+
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">Meine Aufträge</h5>
+                                    <div class="list-group" style="width: 100%;">
+                                        <button type="button"
+                                            class="task-btn-item list-group-item list-group-item-action ">
+
+                                            <pre>Hans Muster     <svg style="text-align: right; float: right;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                                                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                                                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+                                              </svg>       <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="7+10"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                                                  10%
+                                                </div>
+                                              </div>
+                                            
+                                            </pre>
+                                        </button>
+                                        <button type="button"
+                                            class="task-btn-item list-group-item list-group-item-action">
+                                            <pre>Hans Muster     <svg style="text-align: right; float: right;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                                                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                                                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+                                              </svg>       <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="30"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                                  30%
+                                                </div>
+                                              </div>
+                                            
+                                            </pre>
+                                        </button>
+                                        <button type="button"
+                                            class="task-btn-item list-group-item list-group-item-action">
+                                            <pre>Melina Mueller     <svg style="text-align: right; float: right;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                                            <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                                            <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+                                          </svg>       <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                              70%
+                                            </div>
+                                          </div>
+                                        
+                                        </pre>
+                                        </button>
+
+                                        <button type="button"
+                                            class="task-btn-item list-group-item list-group-item-action">
+                                            <pre>Robert Keller    <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                              100%
+                                            </div>
+                                          </div>
+                                        
+                                        </pre>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-sm">
+
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h5 class="card-title">Benachrichtigungen</h5>
+                                    <app-message-view></app-message-view>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+
+                        <div class="col-sm-8">
+
+                            <div class="card">
+
+                                <div class="card-body">
+
+                                    <h5 class="card-title">Offene Prozesse</h5>
+
+                                    <table class="table table-hover" style="width: 100%;">
+                                        <tbody>
+                                            <tr>
+                                                <td>Onboarding prozess</td>
+                                                <td>29/03/2020</td>
+                                                <td>29/03/2021</td>
+                                                <td>Max Muster</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Besprechungsauszug ausfüllen </td>
+                                                <td>21/03/2020</td>
+                                                <td>29/03/2021</td>
+                                                <td>Benjamin Bluemche</td>
+                                            </tr>
+
+
+                                            <tr>
+
+                                                <td>Basisvertrag ausstehend</td>
+                                                <td>20/03/2020</td>
+                                                <td>29/03/2021</td>
+                                                <td>Maria Meier</td>
+                                            </tr>
+                                            <tr>
+                                                <td>neune Kontakt anfrage</td>
+                                                <td>09/02/2020</td>
+                                                <td>29/03/2021</td>
+                                                <td>Max Muster</td>
+                                            </tr>
+
+                                            <tr>
+
+                                                <td>Zusatzvertrag fertig</td>
+                                                <td>28/01/2020</td>
+                                                <td>29/03/2021</td>
+                                                <td>Max Muster</td>
+                                            </tr>
+
+                                            <tr>
+
+                                                <td>neune Kontakt anfrage</td>
+                                                <td>05/01/2020 </td>
+                                                <td>29/03/2021</td>
+                                                <td>Mandantengespraech</td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                          
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <app-line-chart style="width: 180%;"></app-line-chart>
+                                <div class="card-body">
+                                    <h5 class="card-title">Produktivität</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--
+                    <div class="row gx-5">
+
+                        <div class="col-sm-8">
+
+                           
+
+                        </div>
+
+                        <div class="col-sm-4">
+                            
+                        </div>
+
+                    </div>
+                    -->
+
+                </div>
+
+
+
+            </main>
+        </div>
+    </div>
+
+</body>
+
+</html>

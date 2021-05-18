@@ -1,0 +1,91 @@
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.markdown webchat--css-oofrb-xdnm15 {
+  background-color: rgb(255, 136, 0) !important;
+}
+
+/*
+  .webchat--css-yifhs-1g5j31m.webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content{
+    background-color: rgb(255, 136, 0) !important;
+  } 
+  Modal Content/Box */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10%;
+  /* 15% from the top and centered */
+  margin-left: 35%;
+  /* 30% from the left and centered */
+  padding: 10px;
+  border: 1px solid #888;
+  width: 30%;
+  /* Could be more or less, depending on screen size */
+  position: absolute;
+}
+
+.messege-content {
+  background-color: #fefefe;
+  margin-left: 35%;
+  /* 30% from the left and centered */
+  margin-top: 5%;
+  padding: 10px;
+  border: 1px solid #888;
+  height: 600px;
+  overflow: hidden;
+}
+
+.iconMetroBellfb6d0d58 {
+  fill: rgba(249, 137, 63, 1);
+  box-shadow: none;
+  width: 25.00px;
+  height: 25.00px;
+  left: 647.50px;
+  top: 20.00px;
+}
+
+.form-label {
+  color: rgba(249, 137, 63, 1);
+}
+
+/* The Close Button */
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  padding-right: 0;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btnRocket {
+  background-color: transparent;
+  border: none;
+}

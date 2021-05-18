@@ -1,0 +1,46 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.iconAwesomeRocket {
+    fill: rgba(249, 137, 63, 1);
+    box-shadow: none;
+    width: 35.99px;
+    height: 36.00px;
+    left: 34.00px;
+    top: 15.00px;
+}
+
+.show{
+    display: block;
+}
+
+.iconMetroBellfb6d0d58 {
+    fill: rgba(249, 137, 63, 1);
+    box-shadow: none;
+    width: 25.00px;
+    height: 25.00px;
+    left: 647.50px;
+    top: 20.00px;
+}
+
+.form-label {
+    color: rgba(249, 137, 63, 1);
+}
+
+.content {
+    margin-top: 60px;
+}
+.price-tag{
+    text-align: right;
+}
